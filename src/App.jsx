@@ -1,12 +1,14 @@
 import React from 'react';
+import Header from './components/layout/Header';
 import Container from './components/container/Container';
+import Footer from './components/layout/Footer';
 
 const App = () => {
   return (
     <div>
-      <h1>Gallery App</h1>
-      <hr/>
+      <Header />
       <Container />
+      <Footer />
     </div>
   );
 }

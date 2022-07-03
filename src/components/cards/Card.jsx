@@ -4,7 +4,7 @@ import './Card.css';
 
 const Card = ({img}) => {
     return (
-            <div className="card">
+            <div className="card m-2">
                 <img src={img} className="card-img-top" alt="imagen.png" />
             </div>
     );

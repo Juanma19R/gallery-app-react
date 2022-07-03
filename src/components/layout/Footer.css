@@ -1,0 +1,12 @@
+footer{
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div.footer{
+    width: 100%;
+    right: 3%; 
+    display: flex; 
+    background-color: #FFFFFF;
+    justify-content: center;
+}
